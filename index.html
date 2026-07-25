@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GymPlanner | Planeje seus treinos</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+
+        <i class="fa-solid fa-dumbbell"></i>
+
+        <h2>GymPlanner</h2>
+
+    </div>
+
+    <nav>
+
+        <a href="#home">Home</a>
+
+        <a href="#sobre">Sobre</a>
+
+        <a href="#formulario">Calculadora</a>
+
+        <a href="#treino">Treinos</a>
+
+        <a href="#contato">Contato</a>
+
+    </nav>
+
+</header>
+
+<section id="home" class="hero">
+
+    <div class="hero-text">
+
+        <span class="tag">
+            EVOLUA TODOS OS DIAS
+        </span>
+
+        <h1>
+
+            Transforme seu corpo com um planejamento inteligente.
+
+        </h1>
+
+        <p>
+
+            Descubra seu IMC, calorias diárias, proteínas,
+            carboidratos, gorduras e receba um plano completo
+            de treino personalizado.
+
+        </p>
+
+<button id="btnComecar">
+
+    <i class="fa-solid fa-bolt"></i>
+
+    Começar Agora
+
+</button>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="images/hero.webp" alt="Academia">
+
+    </div>
+
+</section>
+
+<section id="sobre">
+
+    <div class="titulo">
+
+        <h2>
+
+            Tudo o que você precisa para evoluir.
+
+        </h2>
+
+        <p>
+
+            O GymPlanner calcula automaticamente seus dados
+            corporais e gera um plano personalizado.
+
+        </p>
+
+    </div>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <i class="fa-solid fa-heart-pulse"></i>
+
+            <h3>IMC</h3>
+
+            <p>
+
+                Descubra sua classificação corporal.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-fire"></i>
+
+            <h3>Calorias</h3>
+
+            <p>
+
+                Saiba quantas calorias consumir por dia.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-drumstick-bite"></i>
+
+            <h3>Macronutrientes</h3>
+
+            <p>
+
+                Proteínas, carboidratos e gorduras.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-dumbbell"></i>
+
+            <h3>Treino</h3>
+
+            <p>
+
+                Receba um treino semanal.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="formulario">
+
+    <div class="form-box">
+
+        <h2>
+
+            Monte seu Plano
+
+        </h2>
+
+        <p>
+
+            Preencha seus dados abaixo.
+
+        </p>
+
+        <form>
+                          <div class="input-group">
+
+                    <div class="input-box">
+
+                        <label for="nome">Nome</label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            placeholder="Digite seu nome">
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="idade">Idade</label>
+
+                        <input
+                            type="number"
+                            id="idade"
+                            placeholder="18">
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="input-box">
+
+                        <label for="sexo">Sexo</label>
+
+                        <select id="sexo">
+
+                            <option value="">Selecione</option>
+                            <option>Masculino</option>
+                            <option>Feminino</option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="nivel">Nível</label>
+
+                        <select id="nivel">
+
+                            <option>Iniciante</option>
+                            <option>Intermediário</option>
+                            <option>Avançado</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="input-box">
+
+                        <label for="peso">Peso (kg)</label>
+
+                        <input
+                            type="number"
+                            id="peso"
+                            placeholder="80">
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="altura">Altura (m)</label>
+
+                        <input
+                            type="number"
+                            step="0.01"
+                            id="altura"
+                            placeholder="1.80">
+
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="input-box full">
+
+                        <label for="objetivo">Objetivo</label>
+
+                        <select id="objetivo">
+
+                            <option>Hipertrofia</option>
+
+                            <option>Emagrecimento</option>
+
+                            <option>Condicionamento</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <button
+                    type="button"
+                    id="gerarPlano"
+                    class="btn-principal">
+
+                    <i class="fa-solid fa-bolt"></i>
+
+                    Gerar Meu Plano
+
+                </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<section id="resultado">
+
+    <div class="titulo">
+
+        <h2>
+
+            Seu Plano Personalizado
+
+        </h2>
+
+        <p>
+
+            Resultados calculados automaticamente.
+
+        </p>
+
+    </div>
+
+    <div class="dashboard">
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-heart-pulse"></i>
+
+            <h3>IMC</h3>
+
+            <span id="imc">--</span>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-scale-balanced"></i>
+
+            <h3>Classificação</h3>
+
+            <span id="classificacao">--</span>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-fire"></i>
+
+            <h3>Calorias</h3>
+
+            <span id="calorias">--</span>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-droplet"></i>
+
+            <h3>Água</h3>
+
+            <span id="agua">--</span>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-drumstick-bite"></i>
+
+            <h3>Proteína</h3>
+
+            <span id="proteina">--</span>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-bowl-rice"></i>
+
+            <h3>Carboidratos</h3>
+
+            <span id="carbo">--</span>
+
+        </div>
+
+        <div class="info-card">
+
+            <i class="fa-solid fa-seedling"></i>
+
+            <h3>Gorduras</h3>
+
+            <span id="gordura">--</span>
+
+        </div>
+
+    </div>
+
+</section>
+  <section id="treino">
+
+    <div class="titulo">
+
+        <h2>Plano de Treino</h2>
+
+        <p>Treino semanal sugerido conforme seu objetivo.</p>
+
+    </div>
+
+    <div id="treinoContainer">
+
+        <!-- Preenchido pelo JavaScript -->
+
+    </div>
+
+</section>
+
+<section id="alimentacao">
+
+    <div class="titulo">
+
+        <h2>Plano Alimentar</h2>
+
+        <p>Estimativa de alimentos para atingir seus macronutrientes.</p>
+
+    </div>
+
+    <div id="alimentacaoContainer">
+
+        <!-- JavaScript -->
+
+    </div>
+
+</section>
+
+<section id="frequencia">
+
+    <div class="titulo">
+
+        <h2>Controle de Frequência</h2>
+
+        <p>Marque os dias em que você treinou.</p>
+
+    </div>
+
+    <div class="checklist">
+
+        <label>
+            <input type="checkbox" class="dia" value="segunda">
+            Segunda-feira
+        </label>
+
+        <label>
+            <input type="checkbox" class="dia" value="terca">
+            Terça-feira
+        </label>
+
+        <label>
+            <input type="checkbox" class="dia" value="quarta">
+            Quarta-feira
+        </label>
+
+        <label>
+            <input type="checkbox" class="dia" value="quinta">
+            Quinta-feira
+        </label>
+
+        <label>
+            <input type="checkbox" class="dia" value="sexta">
+            Sexta-feira
+        </label>
+
+        <div class="contador">
+
+            <h3>
+
+                Treinos concluídos
+
+            </h3>
+
+            <span id="contadorTreinos">
+
+                0 / 5
+
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="dica">
+
+    <div class="titulo">
+
+        <h2>Dica Fitness</h2>
+
+    </div>
+
+    <div class="dica-card">
+
+        <i class="fa-solid fa-lightbulb"></i>
+
+        <p id="dicaTexto">
+
+            Consuma proteínas em todas as refeições para favorecer a recuperação muscular.
+
+        </p>
+
+    </div>
+
+</section>
+
+<footer id="contato">
+
+    <div class="footer-content">
+
+        <h2>
+
+            GymPlanner
+
+        </h2>
+
+        <p>
+
+            Planeje seus treinos. Acompanhe sua evolução.
+
+        </p>
+
+        <div class="redes">
+
+            <i class="fa-brands fa-instagram"></i>
+
+            <i class="fa-brands fa-github"></i>
+
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 GymPlanner - Todos os direitos reservados.
+
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1107 @@
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#111111;
+
+    color:#ffffff;
+
+}
+
+/* ===========================
+HEADER
+=========================== */
+
+header{
+
+    width:100%;
+
+    height:90px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 8%;
+
+    background:#1b1b1b;
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    z-index:999;
+
+    box-shadow:0 0 20px rgba(0,0,0,.4);
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.logo i{
+
+    font-size:32px;
+
+    color:#FFD54A;
+
+}
+
+.logo h2{
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+nav{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#FFD54A;
+
+}
+
+/* ===========================
+HERO
+=========================== */
+
+.hero{
+
+    width:100%;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:130px 6%;
+
+    gap:90px;
+
+}
+
+.hero-text{
+
+    flex:1;
+
+    max-width:700px;
+
+}
+
+.tag{
+
+    display:inline-block;
+
+    background:#FFD54A;
+
+    color:#111;
+
+    padding:8px 20px;
+
+    border-radius:30px;
+
+    font-weight:700;
+
+    margin-bottom:25px;
+
+}
+
+.hero-text h1{
+
+    font-size:60px;
+
+    line-height:72px;
+
+    margin-bottom:25px;
+
+}
+
+.hero-text p{
+
+    font-size:18px;
+
+    color:#d4d4d4;
+
+    margin-bottom:35px;
+
+    line-height:32px;
+
+}
+
+#btnComecar{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:12px;
+
+    border:none;
+
+    background:linear-gradient(135deg,#FFD54A,#FFC107);
+
+    color:#111;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+#btnComecar:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 20px 45px rgba(255,213,74,.45);
+
+}
+
+.hero-image{
+
+    flex:1.2;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    align-items:center;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    max-width:900px;
+
+    height:600px;
+
+    object-fit:cover;
+
+    object-position:center;
+
+    border-radius:30px;
+
+    box-shadow:0 20px 60px rgba(255,213,74,.20);
+
+}
+
+
+/* ===========================
+TÍTULOS
+=========================== */
+
+.titulo{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.titulo h2{
+
+    font-size:42px;
+
+    margin-bottom:15px;
+
+}
+
+.titulo p{
+
+    color:#bfbfbf;
+
+    font-size:18px;
+
+}
+/* ===========================
+CARDS
+=========================== */
+
+.cards{
+
+    width:84%;
+
+    margin:0 auto 100px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:30px;
+
+}
+
+.card{
+
+    background:#1c1c1c;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.35s;
+
+    border:1px solid transparent;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#FFD54A;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.35);
+
+}
+
+.card i{
+
+    font-size:50px;
+
+    color:#FFD54A;
+
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+.card p{
+
+    color:#cfcfcf;
+
+    line-height:28px;
+
+}
+
+/* ===========================
+FORMULÁRIO
+=========================== */
+
+.form-box{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:0 auto 100px;
+
+    background:#1c1c1c;
+
+    border-radius:25px;
+
+    padding:50px;
+
+}
+
+.form-box h2{
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    font-size:38px;
+
+}
+
+.form-box p{
+
+    text-align:center;
+
+    color:#bdbdbd;
+
+    margin-bottom:40px;
+
+}
+
+.input-group{
+
+    display:flex;
+
+    gap:25px;
+
+    margin-bottom:25px;
+
+    flex-wrap:wrap;
+
+}
+
+.input-box{
+
+    flex:1;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.input-box.full{
+
+    width:100%;
+
+}
+
+.input-box label{
+
+    margin-bottom:10px;
+
+    font-weight:600;
+
+}
+
+.input-box input,
+
+.input-box select{
+
+    height:55px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:12px;
+
+    padding:0 18px;
+
+    background:#2b2b2b;
+
+    color:white;
+
+    font-size:16px;
+
+    transition:.3s;
+
+}
+
+.input-box input:focus,
+
+.input-box select:focus{
+
+    border:2px solid #FFD54A;
+
+}
+
+.btn-principal{
+
+    width:100%;
+
+    height:60px;
+
+    margin-top:20px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:#FFD54A;
+
+    color:#111;
+
+    font-size:18px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.btn-principal:hover{
+
+    transform:scale(1.02);
+
+    box-shadow:0 15px 35px rgba(255,213,74,.35);
+
+}
+
+/* ===========================
+DASHBOARD
+=========================== */
+
+.dashboard{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:0 auto 100px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+}
+
+.info-card{
+
+    background:#1c1c1c;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.info-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.info-card i{
+
+    font-size:42px;
+
+    color:#FFD54A;
+
+    margin-bottom:18px;
+
+}
+
+.info-card h3{
+
+    margin-bottom:12px;
+
+}
+
+.info-card span{
+
+    display:block;
+
+    margin-top:12px;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#FFD54A;
+
+}
+/* ===========================
+PLANO DE TREINO
+=========================== */
+
+#treinoContainer{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:0 auto 90px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+.treino-card{
+
+    background:#1c1c1c;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    border-left:5px solid #FFD54A;
+
+    transition:.3s;
+
+}
+
+.treino-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.treino-card h3{
+
+    margin-bottom:18px;
+
+    color:#FFD54A;
+
+}
+
+.treino-card ul{
+
+    list-style:none;
+
+}
+
+.treino-card li{
+
+    padding:8px 0;
+
+    color:#d8d8d8;
+
+}
+
+/* ===========================
+PLANO ALIMENTAR
+=========================== */
+
+#alimentacaoContainer{
+
+    width:90%;
+
+    max-width:1200px;
+
+    margin:0 auto 90px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+}
+
+.alimento-card{
+
+    background:#1c1c1c;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    transition:.3s;
+
+}
+
+.alimento-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.alimento-card h3{
+
+    color:#FFD54A;
+
+    margin-bottom:20px;
+
+}
+
+.alimento-card ul{
+
+    list-style:none;
+
+}
+
+.alimento-card li{
+
+    padding:8px 0;
+
+    color:#d9d9d9;
+
+}
+
+/* ===========================
+CHECKLIST
+=========================== */
+
+.checklist{
+
+    width:90%;
+
+    max-width:650px;
+
+    margin:0 auto 90px;
+
+    background:#1c1c1c;
+
+    border-radius:20px;
+
+    padding:40px;
+
+}
+
+.checklist label{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:18px;
+
+    font-size:18px;
+
+}
+
+.checklist input{
+
+    width:22px;
+
+    height:22px;
+
+    accent-color:#FFD54A;
+
+}
+
+.contador{
+
+    margin-top:35px;
+
+    padding-top:25px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+}
+
+.contador h3{
+
+    margin-bottom:10px;
+
+}
+
+#contadorTreinos{
+
+    font-size:36px;
+
+    color:#FFD54A;
+
+    font-weight:700;
+
+}
+
+/* ===========================
+DICA FITNESS
+=========================== */
+
+.dica-card{
+
+    width:90%;
+
+    max-width:900px;
+
+    margin:0 auto 100px;
+
+    background:#1c1c1c;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+.dica-card i{
+
+    font-size:55px;
+
+    color:#FFD54A;
+
+    margin-bottom:20px;
+
+}
+
+.dica-card p{
+
+    font-size:20px;
+
+    line-height:34px;
+
+    color:#d9d9d9;
+
+}
+
+/* ===========================
+FOOTER
+=========================== */
+
+footer{
+
+    background:#0d0d0d;
+
+    padding:60px 20px;
+
+    text-align:center;
+
+}
+
+.footer-content h2{
+
+    font-size:36px;
+
+    margin-bottom:12px;
+
+}
+
+.footer-content p{
+
+    color:#bfbfbf;
+
+}
+
+.redes{
+
+    margin:30px 0;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+}
+
+.redes i{
+
+    font-size:30px;
+
+    color:#FFD54A;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.redes i:hover{
+
+    transform:scale(1.2);
+
+}
+
+.copyright{
+
+    margin-top:25px;
+
+    font-size:15px;
+
+    color:#8d8d8d;
+
+}
+/* ===========================
+RESPONSIVIDADE
+=========================== */
+
+@media (max-width: 1100px){
+
+    .hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .hero-text h1{
+
+        font-size:48px;
+
+        line-height:60px;
+
+    }
+
+    .hero-image{
+
+        margin-top:40px;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    header{
+
+        flex-direction:column;
+
+        height:auto;
+
+        padding:20px;
+
+    }
+
+    nav{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:18px;
+
+        margin-top:20px;
+
+    }
+
+    .hero{
+
+        padding-top:190px;
+
+    }
+
+    .hero-text h1{
+
+        font-size:36px;
+
+        line-height:46px;
+
+    }
+
+    .hero-text p{
+
+        font-size:16px;
+
+        line-height:28px;
+
+    }
+
+    .titulo h2{
+
+        font-size:32px;
+
+    }
+
+    .form-box{
+
+        padding:30px;
+
+    }
+
+    .input-group{
+
+        flex-direction:column;
+
+    }
+
+    .dashboard{
+
+        grid-template-columns:1fr;
+
+    }
+
+    #treinoContainer{
+
+        grid-template-columns:1fr;
+
+    }
+
+    #alimentacaoContainer{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .checklist{
+
+        padding:25px;
+
+    }
+
+}
+
+@media (max-width:480px){
+
+    .logo h2{
+
+        font-size:24px;
+
+    }
+
+    .hero-text h1{
+
+        font-size:30px;
+
+        line-height:40px;
+
+    }
+
+    .tag{
+
+        font-size:12px;
+
+    }
+
+    #btnComecar{
+
+        width:100%;
+
+    }
+
+    .btn-principal{
+
+        font-size:16px;
+
+    }
+
+    .info-card{
+
+        padding:25px;
+
+    }
+
+    .info-card span{
+
+        font-size:24px;
+
+    }
+
+    .contador span{
+
+        font-size:28px;
+
+    }
+
+}
+
+/* ===========================
+ANIMAÇÕES
+=========================== */
+
+.card,
+.info-card,
+.treino-card,
+.alimento-card,
+.dica-card{
+
+    transition:all .3s ease;
+
+}
+
+.card:hover,
+.info-card:hover,
+.treino-card:hover,
+.alimento-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+button{
+
+    transition:all .3s ease;
+
+}
+
+button:hover{
+
+    opacity:.95;
+
+}
+
+/* ===========================
+SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111111;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#FFD54A;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#ffca28;
+
+}
+#btnComecar i{
+
+    transition:.35s;
+
+}
+
+#btnComecar:hover i{
+
+    transform:rotate(15deg) scale(1.25);
+
+}
