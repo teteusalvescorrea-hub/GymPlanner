@@ -26,14 +26,6 @@ Além do desenvolvimento da interface, o projeto também foi utilizado para prat
 
 ---
 
-# 📷 Preview
-
-<p align="center">
-  <img src="images/preview.png" alt="Preview do GymPlanner" width="900">
-</p>
-
----
-
 # 🚀 Acesse o Projeto
 
 ### 🌐 Aplicação Online
@@ -90,7 +82,6 @@ O projeto foi desenvolvido para funcionar corretamente em:
 GymPlanner
 │
 ├── images/
-│   └── preview.png
 │
 ├── index.html
 ├── style.css
