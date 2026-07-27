@@ -123,14 +123,6 @@ Durante o desenvolvimento do GymPlanner aprimorei conhecimentos em:
 
 ---
 
-# 🚀 Próximos Projetos
-
-- ✅ GymPlanner
-- 🔄 MC Smart – Sistema Inteligente para Gestão de Autoescolas
-- 🔄 Projeto em React
-- 🔄 Projeto Full Stack
-
----
 
 # 👨‍💻 Autor
 
