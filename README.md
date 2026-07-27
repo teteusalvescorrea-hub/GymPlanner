@@ -22,16 +22,14 @@ O **GymPlanner** é uma aplicação web desenvolvida para auxiliar usuários na 
 
 Este projeto foi criado como parte da minha evolução nos estudos de **Desenvolvimento Front-End**, utilizando **HTML5**, **CSS3** e **JavaScript** puro, sem frameworks.
 
-Além do desenvolvimento da interface, o projeto também serviu para praticar versionamento com **Git**, hospedagem com **GitHub Pages** e organização de código.
+Além do desenvolvimento da interface, o projeto também foi utilizado para praticar versionamento com **Git**, organização de código e publicação utilizando **GitHub Pages**.
 
 ---
 
 # 📷 Preview
 
 <p align="center">
-
-> **Em breve será adicionado um GIF demonstrando o funcionamento completo da aplicação.**
-
+  <img src="images/preview.png" alt="Preview do GymPlanner" width="900">
 </p>
 
 ---
@@ -40,11 +38,11 @@ Além do desenvolvimento da interface, o projeto também serviu para praticar ve
 
 ### 🌐 Aplicação Online
 
-**https://teteusalvescorrea-hub.github.io/GymPlanner/**
+👉 https://teteusalvescorrea-hub.github.io/GymPlanner/
 
 ### 💻 Repositório
 
-**https://github.com/teteusalvescorrea-hub/GymPlanner**
+👉 https://github.com/teteusalvescorrea-hub/GymPlanner
 
 ---
 
@@ -78,7 +76,7 @@ Além do desenvolvimento da interface, o projeto também serviu para praticar ve
 
 # 📱 Responsividade
 
-O projeto foi desenvolvido para funcionar corretamente em diferentes dispositivos.
+O projeto foi desenvolvido para funcionar corretamente em:
 
 - 💻 Desktop
 - 📱 Smartphones
@@ -92,6 +90,7 @@ O projeto foi desenvolvido para funcionar corretamente em diferentes dispositivo
 GymPlanner
 │
 ├── images/
+│   └── preview.png
 │
 ├── index.html
 ├── style.css
@@ -136,7 +135,7 @@ Durante o desenvolvimento do GymPlanner aprimorei conhecimentos em:
 # 🚀 Próximos Projetos
 
 - ✅ GymPlanner
-- 🔄 MC Smart — Sistema Inteligente para Gestão de Autoescolas
+- 🔄 MC Smart – Sistema Inteligente para Gestão de Autoescolas
 - 🔄 Projeto em React
 - 🔄 Projeto Full Stack
 
