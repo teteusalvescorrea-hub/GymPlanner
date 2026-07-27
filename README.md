@@ -20,9 +20,22 @@
 
 O **GymPlanner** é uma aplicação web desenvolvida para auxiliar usuários na organização da rotina fitness através de diversas ferramentas em um único ambiente.
 
-O projeto foi criado como parte da minha evolução nos estudos de **Desenvolvimento Front-End**, utilizando apenas **HTML, CSS e JavaScript puro**, sem frameworks.
+O projeto foi criado como parte da minha evolução nos estudos de **Desenvolvimento Front-End**, utilizando apenas **HTML5, CSS3 e JavaScript**, sem frameworks.
 
-Além do desenvolvimento da interface, este projeto foi utilizado para praticar versionamento com **Git**, hospedagem com **GitHub Pages** e organização de código.
+Além do desenvolvimento da interface, este projeto também foi utilizado para praticar versionamento com **Git**, organização de código e publicação utilizando **GitHub Pages**.
+
+---
+
+# 📷 Preview
+
+> Em breve será adicionado um GIF demonstrando a aplicação em funcionamento.
+
+<!--
+Quando criar a imagem, substitua pela linha abaixo:
+
+![Preview](images/preview.png)
+
+-->
 
 ---
 
@@ -30,11 +43,11 @@ Além do desenvolvimento da interface, este projeto foi utilizado para praticar 
 
 ### 🌐 Aplicação Online
 
-https://SEU_USUARIO.github.io/GymPlanner/
+**https://teteusalvescorrea-hub.github.io/GymPlanner/**
 
 ### 💻 Repositório
 
-https://github.com/SEU_USUARIO/GymPlanner
+**https://github.com/teteusalvescorrea-hub/GymPlanner**
 
 ---
 
@@ -43,7 +56,7 @@ https://github.com/SEU_USUARIO/GymPlanner
 - ✅ Calculadora de IMC
 - ✅ Calculadora de TMB
 - ✅ Cálculo de Calorias Diárias
-- ✅ Cálculo de Consumo de Água
+- ✅ Cálculo de Consumo Ideal de Água
 - ✅ Cálculo de Macronutrientes
 - ✅ Gerador de Treinos
 - ✅ Sugestões de Refeições
@@ -54,7 +67,7 @@ https://github.com/SEU_USUARIO/GymPlanner
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -62,12 +75,13 @@ https://github.com/SEU_USUARIO/GymPlanner
 - Git
 - GitHub
 - GitHub Pages
+- Visual Studio Code
 
 ---
 
 # 📱 Responsividade
 
-O projeto foi desenvolvido para funcionar corretamente em:
+O projeto foi desenvolvido para funcionar corretamente em diferentes dispositivos:
 
 - 💻 Desktop
 - 📱 Smartphones
@@ -95,7 +109,7 @@ GymPlanner
 
 Durante o desenvolvimento foram praticados conceitos como:
 
-- Estruturação semântica com HTML5
+- HTML5 Semântico
 - CSS Flexbox
 - Responsividade
 - Manipulação do DOM
@@ -103,7 +117,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 - LocalStorage
 - Organização de arquivos
 - Versionamento com Git
-- Publicação utilizando GitHub Pages
+- Publicação com GitHub Pages
 
 ---
 
@@ -115,10 +129,10 @@ Durante sua construção aprendi a:
 
 - Criar aplicações responsivas;
 - Manipular elementos utilizando JavaScript;
-- Trabalhar com armazenamento local;
+- Trabalhar com armazenamento local (LocalStorage);
 - Organizar projetos Front-End;
-- Publicar aplicações utilizando GitHub Pages;
-- Versionar projetos utilizando Git e GitHub.
+- Utilizar Git e GitHub no dia a dia;
+- Publicar aplicações utilizando GitHub Pages.
 
 ---
 
@@ -133,12 +147,18 @@ Durante sua construção aprendi a:
 
 # 👨‍💻 Autor
 
-**Teteu Alves**
+## Matheus Alves
 
-GitHub:
+Desenvolvedor Front-End em evolução, construindo projetos para consolidar conhecimentos em desenvolvimento web e criar um portfólio sólido.
+
+### GitHub
 
 https://github.com/teteusalvescorrea-hub
 
 ---
 
-⭐ Se você gostou deste projeto, deixe uma estrela no repositório!
+<div align="center">
+
+⭐ Se este projeto foi interessante para você, considere deixar uma estrela no repositório!
+
+</div>
