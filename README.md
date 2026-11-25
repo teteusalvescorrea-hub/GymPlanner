@@ -16,7 +16,7 @@
 
 ---
 
-# 📖 Sobre o Projeto
+#  Sobre o Projeto
 
 O **GymPlanner** é uma aplicação web desenvolvida para auxiliar usuários na organização da rotina fitness, reunindo diversas ferramentas em um único ambiente.
 
@@ -26,19 +26,19 @@ Além do desenvolvimento da interface, o projeto também foi utilizado para prat
 
 ---
 
-# 🚀 Acesse o Projeto
+# Acesse o Projeto
 
-### 🌐 Aplicação Online
+###  Aplicação Online
 
-👉 https://teteusalvescorrea-hub.github.io/GymPlanner/
+ https://teteusalvescorrea-hub.github.io/GymPlanner/
 
-### 💻 Repositório
+###  Repositório
 
-👉 https://github.com/teteusalvescorrea-hub/GymPlanner
+ https://github.com/teteusalvescorrea-hub/GymPlanner
 
 ---
 
-# ✨ Funcionalidades
+#  Funcionalidades
 
 - ✅ Calculadora de IMC
 - ✅ Calculadora de TMB
@@ -54,7 +54,7 @@ Além do desenvolvimento da interface, o projeto também foi utilizado para prat
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+#  Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -66,17 +66,17 @@ Além do desenvolvimento da interface, o projeto também foi utilizado para prat
 
 ---
 
-# 📱 Responsividade
+#  Responsividade
 
 O projeto foi desenvolvido para funcionar corretamente em:
 
-- 💻 Desktop
-- 📱 Smartphones
-- 📱 Tablets
+-  Desktop
+-  Smartphones
+-  Tablets
 
 ---
 
-# 📂 Estrutura do Projeto
+#  Estrutura do Projeto
 
 ```text
 GymPlanner
@@ -92,7 +92,7 @@ GymPlanner
 
 ---
 
-# 🎯 Objetivos do Projeto
+#  Objetivos do Projeto
 
 Durante o desenvolvimento foram praticados conceitos como:
 
@@ -109,7 +109,7 @@ Durante o desenvolvimento foram praticados conceitos como:
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Durante o desenvolvimento do GymPlanner aprimorei conhecimentos em:
 
@@ -124,13 +124,13 @@ Durante o desenvolvimento do GymPlanner aprimorei conhecimentos em:
 ---
 
 
-# 👨‍💻 Autor
+#  Autor
 
 ## Matheus Alves
 
 Desenvolvedor Front-End em evolução, focado na construção de projetos práticos para consolidar conhecimentos em desenvolvimento web.
 
-### 🔗 GitHub
+###  GitHub
 
 https://github.com/teteusalvescorrea-hub
 
@@ -138,7 +138,7 @@ https://github.com/teteusalvescorrea-hub
 
 <div align="center">
 
-### ⭐ Gostou do projeto?
+###  Gostou do projeto?
 
 Se este projeto foi útil ou interessante para você, considere deixar uma **⭐ Star** no repositório.
 
